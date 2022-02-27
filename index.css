@@ -1,0 +1,29 @@
+.page {
+  
+    background: #2A2C2F;
+    min-height: 880px;
+    max-width: 1217px;
+    width: 100%;
+    color: #FFFFFF;
+    position: relative;
+  overflow-x: hidden;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    
+  }
+  .header__logo {
+     margin-top: 45px;
+  }
+  .header {
+    min-height: 74px;
+    min-width: 880px;
+   
+    border-bottom: 1px solid #545454; ;
+  } 
+  .profile {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+   
