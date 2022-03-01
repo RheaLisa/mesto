@@ -1,0 +1,21 @@
+.page {
+  
+    background: #2A2C2F;
+    min-height: 880px;
+    max-width: 1217px;
+    width: 100%;
+    color: #FFFFFF;
+    position: relative;
+  overflow-x: hidden;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    
+  }
+  @media screen and (max-width: 320px) {
+  .page {
+    max-width: 320px;
+  }
+   
+  }

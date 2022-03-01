@@ -1,0 +1,16 @@
+.root {
+    /*min-width: 320px;*/
+    
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.42;
+    color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+        margin: 0;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: #2A2C2F;
+    }
