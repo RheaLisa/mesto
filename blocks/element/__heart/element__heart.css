@@ -1,0 +1,10 @@
+.element__heart {
+    height: 19px;
+width: 22px;
+border: none;
+background-image: url(/image/Group.png) center;
+align-self: center;
+cursor: pointer;
+margin: 0;
+padding: 0 5px 0 0;
+}

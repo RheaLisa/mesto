@@ -21,14 +21,11 @@
         <img class="profile__avatar" alt="Кусто" src="./image/image.jpg">
         <div class="profile__info">
             <h1 class="profile__title">Жак-Ив Кусто</h1>
-           
-            <img class="btn" alt="Кнопка плюс" src="./image/Edit Button.svg"> 
+            <button class="profile__btn-edit" type="button" area-label="Кнопка редактировать"></button>
             <p class="profile__text">Исследователь океана</p>
         </div>
-        <a href="#" class="btn" >
-            <img class="btn" alt="Кнопка плюс" src="./image/Add Button.png">  
-        </a>
-        
+        <button class="profile__btn-add" type="button" area-label="Кнопка плюс"></button>
+               
       </section>
      
       <section class="elements">
@@ -36,42 +33,42 @@
               <img class="element__image" alt="Карачаевск" src="./image/karachaev.jpg">
              <div class="element__caption">
               <h2 class="element__title">Карачаевск</h2>
-              <img class="element__group" alt="Сердечко" src="./image/Group.png">
+              <button class="element__heart" type="button" area-label="Поставить сердечко"></button>
             </div>
             </div>
             <div class="element">
               <img class="element__image" alt="Гора Эльбрус" src="./image/elbrus.png">
              <div class="element__caption">
               <h2 class="element__title">Гора Эльбрус</h2>
-              <img class="element__group" alt="Сердечко" src="./image/Group.png">
+              <button class="element__heart" type="button" area-label="Поставить сердечко"></button>
             </div>
           </div>
             <div class="element">
               <img class="element__image" alt="Домбай" src="./image/dombay.png">
              <div class="element__caption">
               <h2 class="element__title">Домбай</h2>
-              <img class="element__group" alt="Сердечко" src="./image/Group.png">
+              <button class="element__heart" type="button" area-label="Поставить сердечко"></button>
             </div>
           </div>
             <div class="element">
               <img class="element__image" alt="Гора Эльбрус" src="./image/elbrus.png">
              <div class="element__caption">
               <h2 class="element__title">Гора Эльбрус</h2>
-              <img class="element__group" alt="Сердечко" src="./image/Group.png">
+              <button class="element__heart" type="button" area-label="Поставить сердечко"></button>
             </div>
           </div>
             <div class="element">
               <img class="element__image" alt="Домбай" src="./image/dombay.png">
              <div class="element__caption">
               <h2 class="element__title">Домбай</h2>
-              <img class="element__group" alt="Сердечко" src="./image/Group.png">
+              <button class="element__heart" type="button" area-label="Поставить сердечко"></button>
             </div>
           </div>
             <div class="element">
               <img class="element__image" alt="Карачаевск" src="./image/karachaev.jpg">
              <div class="element__caption">
               <h2 class="element__title">Карачаево-Ч...</h2>
-              <img class="element__group" alt="Сердечко" src="./image/Group.png">
+              <button class="element__heart" type="button" area-label="Поставить сердечко"></button>
             </div>
           </div>
       </section>
@@ -81,6 +78,17 @@
     <footer class="footer">
       <h3 class="footer__copyright">&#169;2022. Mesto Russia</h3>
     </footer>
+  </div>
+  <section class="popup">
+    <div class="popup__container">
+      <button class="popup__close" type="button" area-label="Закрыть попап"></button>
+      <h2 class="popup__title">Редактировать профиль</h2>
+     <fieldset class="popup__input">
+      <input class="popup__item" type="text" name="name" value="Введите имя">
+      <input class="popup__item" type="text" name="profession" value="Введите профессию">
+    </fieldset>
+    <button class="popup__save" type="button">Сохранить</button>
+    </div>
   </div>
 </body>
 

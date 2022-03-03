@@ -1,0 +1,8 @@
+.profile__btn-add {
+    height: 50px;
+width: 150px;
+border-radius: 2px;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+background-image: url(/image/Add\ Button.png);
+}
