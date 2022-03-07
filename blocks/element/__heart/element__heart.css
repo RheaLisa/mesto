@@ -1,10 +1,27 @@
-.element__heart {
-    height: 19px;
-width: 22px;
+.heart__empty {
+height: 19px;
+width: 17px;
 border: none;
-background-image: url(/image/Group.png) center;
+background: #FFFF;
+background-image: url(/image/heart.svg);
+background-image: no-repeat;
 align-self: center;
 cursor: pointer;
 margin: 0;
 padding: 0 5px 0 0;
+}
+.heart__empty:hover {
+    opacity: .6;
+}
+
+.element__heart {
+    cursor: pointer;
+}
+.heart__checkbox:checked ~ .heart__full  {
+    background-image: url(/image/Union.png);  
+}
+
+
+.heart__checkbox {
+    display: none;
 }

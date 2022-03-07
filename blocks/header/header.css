@@ -8,7 +8,8 @@
   @media screen and (min-width: 320px) {
     .header {
       max-width: 320px;
-      margin-bottom: 38px;
+      margin-bottom: 69px;
+      border-bottom: none;
     }
      
     }

@@ -9,7 +9,8 @@
   box-sizing: border-box;
    margin: 0 auto;
   padding: 0;
-   background: #2A2C2F;
+  
+    background: #2A2C2F;
     min-height: 880px;
     max-width: 1217px;
     width: 100%;
@@ -24,7 +25,13 @@
   }
   @media screen and (max-width: 320px) {
   .page {
-    max-width: 320px;
+    min-width: calc(100% - 960px);
+    margin: 0 19px 0 19px;
+}
   }
-   
-  }
+@media screen and (max-width: 768px) {
+  .page {
+    min-width: calc(100% - 512px);
+ 
+}
+}

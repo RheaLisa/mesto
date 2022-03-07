@@ -7,3 +7,19 @@
     margin-right: 20%;
     height: 73px;
   }
+  @media screen and (max-width: 320px) {
+    .profile__info {
+       margin: 0;
+       justify-content: center;
+    }
+     
+    }
+    @media screen and (max-width: 768px) {
+      .profile__info {
+         margin: 0;
+         justify-content: center;
+         margin-right: 10%;
+         width: 350px;
+      }
+       
+      }
