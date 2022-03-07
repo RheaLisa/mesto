@@ -1,0 +1,17 @@
+.popup__container {
+    display: flex;
+   justify-content: center;
+  margin: 15% 33% 0 33%;
+  width: 470px;
+  height: 360px;
+}
+@media screen and (max-width: 320px) {
+    .popup__container {
+    width: 282px;
+    height: 364px;
+    flex-direction: column-reverse;
+   margin: 123px 19px 0 19px;
+    align-items: flex-end;
+    }
+     
+    }

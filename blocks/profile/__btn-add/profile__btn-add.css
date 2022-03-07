@@ -5,7 +5,7 @@ border-radius: 2px;
 background: #2A2C2F;
 border: 2px solid #FFFFFF;
 box-sizing: border-box;
-background-image: url(/image/Add\ Button.png);
+background-image: url(../../../image/Add\ Button.png);
 }
 .profile__btn-add:hover {
 opacity: .5;

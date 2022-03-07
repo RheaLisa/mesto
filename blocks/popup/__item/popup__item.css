@@ -1,0 +1,14 @@
+.popup__item {
+    border-bottom: 1px solid #000000 .2;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 320px) {
+    .popup__item {
+       
+     margin-bottom:30px;
+    }
+     
+    }
