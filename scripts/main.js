@@ -10,4 +10,9 @@ function togglePopup (){
 openPopup.addEventListener ('click', togglePopup);
  
 closePopup.addEventListener('click', togglePopup);
-   
+
+const heart = document.querySelector ('.element__heart');
+const checkHeart = document.querySelector ('.check-heart');
+checkHeart.addEventListener ('click', function (){
+heart.classList.toggle ('element__heart_check')
+})
