@@ -6,6 +6,9 @@ background: #2A2C2F;
 border: 2px solid #FFFFFF;
 box-sizing: border-box;
 background-image: url(../../../image/Add\ Button.png);
+background-repeat: no-repeat;
+position: absolute;
+right: 0;
 }
 .profile__btn-add:hover {
 opacity: .5;
@@ -13,12 +16,14 @@ opacity: .5;
 @media screen and (max-width: 320px) {
     .profile__btn-add {
       margin-top: 36px;
+      position: relative;
     }
      
     }
     @media screen and (max-width: 768px) {
       .profile__btn-add {
-        margin-top: 36px;
+         position: relative;
+       margin-top: 36px;
       }
        
       }
