@@ -1,11 +1,12 @@
 .profile__info {
-    width: 336px;
+    width: 340px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     margin-left: 40px;
     margin-right: 25%;
     height: 73px;
+margin-top: 27px;
   }
   @media screen and (max-width: 320px) {
     .profile__info {
