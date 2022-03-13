@@ -1,8 +1,0 @@
-.heart__checkbox:checked ~ .heart__full  {
-    background-image: url(../../../image/Union.png);  
-}
-
-
-.heart__checkbox {
-    display: none;
-}
