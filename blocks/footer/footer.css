@@ -9,3 +9,11 @@ text-align: left;
 margin: 67px auto 60px;
 max-width: 880px;
 }
+@media screen and (max-width: 320px) {
+.footer {
+margin: 27px auto 60px;
+font-size: 14px;
+line-height: 17px;
+    }
+     
+    }

@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     max-width: 880px;
     margin: 0 auto;
+    justify-content: center;
 
   }
   @media screen and (max-width: 320px) {
@@ -10,6 +11,7 @@
       flex-wrap: nowrap;
       flex-direction: column;
       margin-left: 19px;
+      width: 90%;
     }
      
     }

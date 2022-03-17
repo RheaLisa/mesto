@@ -5,22 +5,18 @@
     align-items: center;
     margin-left: 40px;
     margin-right: 25%;
-    height: 73px;
+    /*height: 73px;*/
 margin-top: 27px;
   }
-  @media screen and (max-width: 320px) {
-    .profile__info {
-       margin: 0;
-       justify-content: center;
-    }
-     
-    }
-    @media screen and (max-width: 768px) {
+  
+   
+    @media screen and (max-width: 900px) {
       .profile__info {
          margin: 0;
          justify-content: center;
-         margin-right: 10%;
+        
          width: 350px;
       }
        
       }
+      

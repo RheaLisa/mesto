@@ -2,10 +2,16 @@
     display: flex;
     flex-direction: row;
     width: 246px;
-    height: 23px;
+    /*height: 23px;*/
     margin: 25px 15px 31px 21px;
     align-items: center;
     align-content: center;
     justify-content: space-between;
     
   }
+  @media screen and (max-width: 320px) {
+    .element__caption {
+      margin: 15px 15px 31px 21px;
+    }
+     
+    }

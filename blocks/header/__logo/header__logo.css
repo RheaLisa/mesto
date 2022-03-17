@@ -4,9 +4,10 @@
  }
  @media screen and (max-width: 320px) {
     .header__logo {
-        margin-top: 31px;
-        margin-bottom: 0;
-        margin-left: 8px;
+        margin: 0;
+        margin-left: 28px;
+        width: 104px;
+        height: 24px;
     }
      
     }

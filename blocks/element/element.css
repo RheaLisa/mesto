@@ -1,10 +1,10 @@
 
   .element {
-    width: 282px;
+    min-width: 282px;
     background: #FFFFFF;
-    height: 361px;
+   /* height: 361px;*/
     margin-right: 17px;
-    border-radius: 8px;
+    border-radius: 10px;
     overflow: hidden;
     margin-bottom: 20px;
 

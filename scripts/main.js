@@ -1,18 +1,34 @@
 
-
 const popup = document.querySelector('.popup');
-const openPopup = document.querySelector ('.popup-open');
-const closePopup = document.querySelector ('.popup__close');
+const openPopup = document.querySelector('.popup-open');
 
-function togglePopup (){
-  popup.classList.toggle('popup__opened')
+
+let formElement = document.querySelector('.popup__input');
+let inputName = document.querySelector('.popup__item-name');
+let inputInfo = document.querySelector('.popup__item-info');
+let profileName = document.querySelector('.profile__title');
+let profileInfo = document.querySelector('.profile__text');
+inputName.value = profileName.textContent;
+inputInfo.value = profileInfo.textContent;
+
+
+openPopup.addEventListener('click', function() {
+  inputName.value = profileName.textContent;
+  inputInfo.value = profileInfo.textContent;
+    popup.classList.add('popup_opened')
+});
+function formSubmitHandler(evt) {
+    evt.preventDefault();
+    profileName.textContent = inputName.value;
+    profileInfo.textContent = inputInfo.value;
+    popup.classList.remove('popup_opened');
 }
-openPopup.addEventListener ('click', togglePopup);
- 
-closePopup.addEventListener('click', togglePopup);
+formElement.addEventListener('submit', formSubmitHandler);
 
-const heart = document.querySelector ('.element__heart');
-const checkHeart = document.querySelector ('.check-heart');
-checkHeart.addEventListener ('click', function (){
-heart.classList.toggle ('element__heart_check')
-})
+
+const closePopup = document.querySelector('.popup__close');
+closePopup.addEventListener('click', function() {
+    popup.classList.remove('popup_opened');
+});
+
+
