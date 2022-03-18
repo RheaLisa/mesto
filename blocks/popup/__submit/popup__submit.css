@@ -1,35 +1,32 @@
 .popup__submit {
-    width: 358px;
-      height: 50px;
-      margin: 18px auto 35px auto;
-      background: #000000;
-      border-radius: 2px;
-      border: 0;
-      color: #FFFFFF;
-      cursor: pointer;
-    align-self: center;
-
-      background-position: center;
-    
-    
-    }
+width: 358px;
+height: 50px;
+margin: 28px auto 35px auto;
+background: #000000;
+border-radius: 2px;
+border: 0;
+color: #FFFFFF;
+cursor: pointer;
+align-self: center;
+background-position: center;
+     }
     .popup__submit:hover {
         opacity: .8;
     }
-    @media screen and (max-width: 425px) {
-        .popup__submit {
-            width: 288px;
-            height: 46px;
-            margin: 45px 22px 25px 22px;
+@media screen and (max-width: 425px) {
+.popup__submit {
+width: 288px;
+height: 46px;
+ margin: 45px 22px 25px 22px;
         }
-         
+        
         }
-        @media screen and (max-width: 425px) {
-            .popup__submit {
-                width: 238px;
-                height: 46px;
+@media screen and (max-width: 425px) {
+ .popup__submit {
+    width: 238px;
+     height: 46px;
                 
-            }
+     }
              
-            }
+}
    

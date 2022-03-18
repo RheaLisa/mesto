@@ -2,7 +2,6 @@
   .element {
     min-width: 282px;
     background: #FFFFFF;
-   /* height: 361px;*/
     margin-right: 17px;
     border-radius: 10px;
     overflow: hidden;
@@ -11,4 +10,9 @@
   }
   .element:nth-child(3n){
     margin-right: 0;
+  }
+  @media screen and (max-width: 879px) {
+    .element:nth-child(3n){
+      margin-right: 17px;
+    }
   }

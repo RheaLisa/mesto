@@ -5,8 +5,7 @@
     align-items: center;
     margin-left: 40px;
     margin-right: 25%;
-    /*height: 73px;*/
-margin-top: 27px;
+   margin-top: 27px;
   }
   
    
@@ -14,7 +13,6 @@ margin-top: 27px;
       .profile__info {
          margin: 0;
          justify-content: center;
-        
          width: 350px;
       }
        

@@ -16,17 +16,17 @@ margin-top: 30px;
 opacity: .6;
 }
 
-    @media screen and (max-width: 900px) {
-      .profile__btn-add {
-       margin-top: 36px;
-       width: 70%;
+@media screen and (max-width: 900px) {
+.profile__btn-add {
+ margin-top: 36px;
+width: 70%;
       }
        
       }
-      @media screen and (max-width: 320px) {
-        .profile__btn-add {
-          width: 90%;
-          margin-top: 30px;
+ @media screen and (max-width: 320px) {
+.profile__btn-add {
+ width: 90%;
+margin-top: 30px;
         }
          
         }

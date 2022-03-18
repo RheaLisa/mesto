@@ -1,6 +1,6 @@
 .profile__text {
-    margin: 16px 0 0 0;
-    font-family: Inter;
+margin: 10px 0 25px 0;
+font-family: Inter;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
@@ -19,9 +19,6 @@ max-width: 336px;
       line-height: 17px;
       text-align: center;
       margin: 14px 0 0 0;
-     
-      
-    
-  }
+   }
     }
  
