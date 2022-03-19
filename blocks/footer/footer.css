@@ -1,19 +1,13 @@
 .footer {
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: left;
-margin:33px auto 60px;
-max-width: 880px;
+    margin: 33px auto 60px;
+    max-width: 880px;
 }
+
 @media screen and (max-width: 320px) {
-.footer {
-margin: 27px auto 60px;
-font-size: 14px;
-line-height: 17px;
+    .footer {
+        margin: 27px auto 60px;
+        font-size: 14px;
+        line-height: 17px;
     }
-     
-    }
+
+}

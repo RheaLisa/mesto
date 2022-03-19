@@ -1,27 +1,29 @@
 .page {
-    font-family: 'Inter', Arial, sans-serif;
-   -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 0;
-    background: #000000;
-    width: 100%;
-    color: #FFFFFF;
-    position: relative;
-     border-radius: 0px;
-        
-  }
-  @media screen and (max-width: 320px) {
+  font-family: 'Inter', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  background: #000000;
+  width: 100%;
+  color: #FFFFFF;
+  position: relative;
+  border-radius: 0px;
+
+}
+
+@media screen and (max-width: 320px) {
   .page {
     min-width: calc(100% - 960px);
-   
-}
+
   }
+}
+
 @media screen and (max-width: 768px) {
   .page {
     min-width: calc(100% - 512px);
- 
-}
+
+  }
 }

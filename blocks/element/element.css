@@ -1,18 +1,19 @@
+.element {
+  min-width: 282px;
+  background: #FFFFFF;
+  margin-right: 17px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
 
-  .element {
-    min-width: 282px;
-    background: #FFFFFF;
+}
+
+.element:nth-child(3n) {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 879px) {
+  .element:nth-child(3n) {
     margin-right: 17px;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 20px;
-
   }
-  .element:nth-child(3n){
-    margin-right: 0;
-  }
-  @media screen and (max-width: 879px) {
-    .element:nth-child(3n){
-      margin-right: 17px;
-    }
-  }
+}
